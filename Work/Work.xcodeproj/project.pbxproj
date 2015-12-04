@@ -15,6 +15,7 @@
 		012EFBC01C116886003FA56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012EFBBE1C116886003FA56B /* LaunchScreen.storyboard */; };
 		012EFBCB1C116887003FA56B /* WorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012EFBCA1C116887003FA56B /* WorkTests.m */; };
 		012EFBD61C116887003FA56B /* WorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012EFBD51C116887003FA56B /* WorkUITests.m */; };
+		9D93B4D71C116F43004A0317 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D93B4D61C116F43004A0317 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		012EFBD11C116887003FA56B /* WorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012EFBD51C116887003FA56B /* WorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkUITests.m; sourceTree = "<group>"; };
 		012EFBD71C116887003FA56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D93B4D51C116F43004A0317 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9D93B4D61C116F43004A0317 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				012EFBB41C116886003FA56B /* AppDelegate.m */,
 				012EFBB61C116886003FA56B /* ViewController.h */,
 				012EFBB71C116886003FA56B /* ViewController.m */,
+				9D93B4D51C116F43004A0317 /* Person.h */,
+				9D93B4D61C116F43004A0317 /* Person.m */,
 				012EFBB91C116886003FA56B /* Main.storyboard */,
 				012EFBBC1C116886003FA56B /* Assets.xcassets */,
 				012EFBBE1C116886003FA56B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				012EFBB81C116886003FA56B /* ViewController.m in Sources */,
 				012EFBB51C116886003FA56B /* AppDelegate.m in Sources */,
+				9D93B4D71C116F43004A0317 /* Person.m in Sources */,
 				012EFBB21C116886003FA56B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +505,7 @@
 				012EFBDC1C116887003FA56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012EFBDD1C116887003FA56B /* Build configuration list for PBXNativeTarget "WorkTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				012EFBDF1C116887003FA56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012EFBE01C116887003FA56B /* Build configuration list for PBXNativeTarget "WorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				012EFBE21C116887003FA56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
