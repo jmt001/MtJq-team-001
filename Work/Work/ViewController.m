@@ -9,19 +9,20 @@
 #import "ViewController.h"
 
 @interface ViewController (){
-<<<<<<< HEAD
+
     int x;
-=======
     int xxxx ;
     int y;
     int z;
->>>>>>> master
+ 
 }
 
 @end
 
 @implementation ViewController
-
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"aaa");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"1");
