@@ -18,7 +18,9 @@
 @end
 
 @implementation ViewController
-
+-(void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"aaa");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"2");
