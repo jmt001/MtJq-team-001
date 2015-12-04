@@ -9,9 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController (){
+<<<<<<< HEAD
+    int x;
+=======
     int xxxx ;
     int y;
     int z;
+>>>>>>> master
 }
 
 @end
@@ -23,5 +27,5 @@
     NSLog(@"1");
 }
 
- 
+
 @end
