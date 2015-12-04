@@ -9,10 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController (){
+
     int x;
     int xxxx ;
     int y;
     int z;
+
+
+
+
+
 }
 
 @end
