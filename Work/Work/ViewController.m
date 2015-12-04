@@ -11,7 +11,6 @@
 @interface ViewController (){
     int xxxx ;
     int y;
-    
     int z;
 }
 
