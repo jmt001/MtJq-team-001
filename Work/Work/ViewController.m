@@ -9,13 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController (){
-<<<<<<< HEAD
     int x;
-=======
     int xxxx ;
     int y;
     int z;
->>>>>>> master
 }
 
 @end
@@ -24,8 +21,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"1");
+    NSLog(@"2");
+    
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"111");
+}
 
 @end
